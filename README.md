@@ -2,7 +2,7 @@
 
 Клонировать
 ```
-git clone
+git clone https://github.com/whyusoserious/hmwrk_ros.git
 ```
 Перейти в клонированную директорию
 ```
