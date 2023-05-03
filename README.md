@@ -6,13 +6,13 @@ git clone https://github.com/whyusoserious/hmwrk_ros.git
 ```
 Перейти в клонированную директорию
 ```
-cd <dir>
+cd <hmwrk_ros>
 ```
-Настроим среду выполнения
+Настроить среду выполнения
 ```
 source devel/setup.bash
 ```
-Запустим проект
+Запустить проект
 ```
 roslaunch turtle launch.launch
 ```
