@@ -1,0 +1,12 @@
+<launch>
+  <!-- Запуск turtlesim_node -->
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" output="screen"/>
+
+  <!-- Запуск turtle_teleop_key -->
+  <node pkg="turtlesim" type="turtle_teleop_key" name="turtle_teleop_key" output="screen"/>
+
+  <!-- Запуск ноды -->
+  <node pkg="turtle" type="turtle_follow.py" name="turtle_follow_node" output="screen" required="true">
+    <param name="follower_speed" value="0.3"/> <!-- Устанавливаем скорость преследователя -->
+  </node>
+</launch>
