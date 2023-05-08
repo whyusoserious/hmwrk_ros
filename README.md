@@ -6,7 +6,7 @@ git clone https://github.com/whyusoserious/hmwrk_ros.git
 ```
 Перейти в клонированную директорию
 ```
-cd <hmwrk_ros>
+cd hmwrk_ros
 ```
 Настроить среду выполнения
 ```
