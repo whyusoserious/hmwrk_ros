@@ -10,6 +10,7 @@ cd <hmwrk_ros>
 ```
 Настроить среду выполнения
 ```
+catkin_make
 source devel/setup.bash
 ```
 Запустить проект
